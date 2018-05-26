@@ -23,6 +23,7 @@ a.anchor {
   visibility: hidden;
 }
 
+/* header style */
 .logo img {
   height: 50px;
   padding: 10px 10px;
@@ -45,7 +46,7 @@ header {
   background: black;
 }
 
-
+/* content container style  */
 .content {
   display: flex;
   flex-direction: column;
@@ -54,6 +55,7 @@ header {
   top: 70px;
 }
 
+/* item mission style */
 .mission {
   width: 1200px;
   height: 700px;
@@ -69,13 +71,15 @@ header {
 
 .mission-text h2,
 .mission-text h4,
-.featuredTea h2,
-.featuredTea h4 {
+.featured-tea h2,
+.featured-tea h4 {
   padding: 10px;
   margin: 0px;
 }
 
-.featuredTea {
+
+/* item featured tea style */
+.featured-tea {
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -104,6 +108,7 @@ header {
   padding: 0;
 }
 
+/* item location style */
 .locations h2 {
   margin: 0;
   padding: 0;
@@ -140,6 +145,7 @@ header {
   margin: 0px;
 }
 
+/* footer section style */
 footer {
   position: relative;
   top: 70px;
