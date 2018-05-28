@@ -88,23 +88,25 @@ header {
   padding: 0;
 }
 
-.teaRow {
+.tea-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-content: space-around;
 }
 
-.teaType {
+.tea-type {
   width: 300px;
   margin: 15px;
 }
 
-.teaType img {
+.tea-type img {
   height: 200px;
   width: 300px;
   margin-bottom: 15px;
 }
 
-.teaType h4 {
+.tea-type h4 {
   padding: 0;
 }
 
